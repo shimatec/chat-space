@@ -1,32 +1,27 @@
-%head 
-  %meta{"charset":"UTF-8"}
-  %link{"href":"style.css","rel":"stylesheet"}
-  %title %Sample
-%body
-  .Side-bar
-    .Side-bar__user-name
-      .Top-items
-        %h3.Top-items__name
-          name
-        %ul.Top-items__icons
-          %li.list
-          = link_to "#", class: "Side-bar__btn" do
-            = icon('far', 'edit', class: 'strong')
-          = link_to "#", class: "Side-bar__btn" do
-            = icon('fas', 'cog')
-    .Side-bar__group-list
-      .group
-        .group__name
-          グループ名
-        .group__message
-          メッセージ
-      .group
-        .group__name
-          グループ名
-        .group__message
-          メッセージ
-      .group
-        .group__name
-          グループ名
-        .group__message
-          メッセージ
+.Side-bar
+  .Side-bar__user-name
+    .Top-items
+      %h3.Top-items__name
+        name
+      %ul.Top-items__icons
+        %li.list
+        = link_to "#", class: "Side-bar__btn" do
+          = icon('far', 'edit', class: 'strong')
+        = link_to "#", class: "Side-bar__btn" do
+          = icon('fas', 'cog')
+  .Side-bar__group-list
+    .group
+      .group__name
+        グループ名
+      .group__message
+        メッセージ
+    .group
+      .group__name
+        グループ名
+      .group__message
+        メッセージ
+    .group
+      .group__name
+        グループ名
+      .group__message
+        メッセージ
