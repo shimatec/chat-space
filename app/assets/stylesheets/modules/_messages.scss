@@ -27,8 +27,6 @@
       &__icons {
         display: flex;
         justify-content: end;
-        //width: 60px;
-        //box-sizing: border-box;
         .fas {
           color: #ffffff;
           text-align:  right;
@@ -39,12 +37,7 @@
           text-align: right;
         }
       }
-    }
-    
-    //.Side-bar__btn {
-    //  text-decoration: none;
-    //}
-    
+    }  
   }
   
   .Side-bar__group-list {
@@ -71,7 +64,6 @@
   width: calc(100vw - 300px);
   .header {
     background-color: #ffffff;
-    //box-sizing: border-box;
     height: 100px;
     padding: 0 40px;
     border-bottom: solid 1px #eeeeee;
@@ -174,18 +166,3 @@
     }
   }
 }
-
-//.Chat-main__group-info {
-//  height: 100px;
-//}
-
-//.Chat-main__message-list {
-//  height: calc(100vh - 190px);
-//  background-color: #fafafa;
-//}
-
-//.Chat-main__message-form {
-//  height: 90px;
-//  background-color: #d2d2d2;
-//}
-
