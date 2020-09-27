@@ -1,4 +1,8 @@
 class GroupUser < ApplicationRecord
-  belongs_to :group
-  belongs_to :user
+  devise :database_authenticatable, :registerable,
+  :recoverable, :rememberable, :validatable
+
+has_many :group_users
+has_many :groups, through: :group_users
+has_many :messages
 end
